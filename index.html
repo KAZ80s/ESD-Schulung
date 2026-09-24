@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ESD – Jährliche Wissensüberprüfung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div><span class="eyebrow">Jährliche Wissensüberprüfung</span><h1>ESD-Praxischeck</h1></div>
+      <div class="shield" aria-hidden="true">ESD</div>
+    </header>
+
+    <section id="start" class="card start-card">
+      <div>
+        <h2>10 Situationen aus dem Arbeitsalltag</h2>
+        <p>Aus dem Fragenpool werden 10 unterschiedliche Fragen zufällig ausgewählt. Auch die drei Antworten erscheinen jedes Mal in einer anderen Reihenfolge.</p>
+        <ul><li>Dauer: ca. 10 Minuten</li><li>Pro Frage ist eine Antwort richtig.</li><li>Falsch beantwortete Fragen kommen erst nach den 10 Hauptfragen in der Runde „Wiederholung“ nochmals.</li><li>Zum Bestehen sind 8 von 10 Fragen nötig.</li></ul>
+      </div>
+      <form id="startForm" class="person-form">
+        <label>Vorname und Name<input id="personName" required autocomplete="name" placeholder="Name eingeben"></label>
+        <button class="primary" type="submit">Test starten</button>
+      </form>
+    </section>
+
+    <section id="quiz" class="hidden">
+      <div class="status">
+        <div><strong id="phaseText">Hauptrunde</strong><span id="progressText">Frage 1 von 10</span></div>
+        <div class="counters">
+          <span id="correctText" class="counter correct-counter">Richtig: 0</span>
+          <span id="wrongText" class="counter wrong-counter">Falsch: 0 · Wiederholung am Schluss</span>
+        </div>
+      </div>
+      <div class="progress" aria-hidden="true"><div id="bar"></div></div>
+      <article class="card question-card">
+        <div class="question-body">
+          <span id="topic" class="tag"></span>
+          <h2 id="question"></h2>
+          <p class="choice-hint">Wähle das passende Bild oder den passenden Text.</p>
+          <div id="answers" class="answers" aria-label="Antwortmöglichkeiten"></div>
+          <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+          <button id="next" class="primary next hidden" type="button">Weiter</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="result" class="card hidden">
+      <span class="eyebrow">Auswertung</span>
+      <h2 id="resultTitle"></h2>
+      <p id="resultSummary" class="lead"></p>
+      <div class="result-grid">
+        <div><strong id="initialScore">0/10</strong><span>Ergebnis Hauptrunde</span></div>
+        <div><strong id="retryScore">–</strong><span>Wiederholungsfragen richtig</span></div>
+      </div>
+      <div id="topicReview" class="review"></div>
+      <div class="actions">
+        <button id="download" class="primary" type="button">Ergebnis herunterladen</button>
+        <button id="print" class="secondary" type="button">Drucken</button>
+        <button id="restart" class="secondary" type="button">Neuer Test</button>
+      </div>
+      <p class="small">Hinweis: Die heruntergeladene Ergebnisdatei dient als einfacher Nachweis. Die betriebliche Ablage und Freigabe ist separat festzulegen.</p>
+    </section>
+  </main>
+  <script src="fragen.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

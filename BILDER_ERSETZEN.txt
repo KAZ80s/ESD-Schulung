@@ -1,0 +1,39 @@
+Eigene Produktionsbilder einsetzen
+==================================
+
+Die 30 Antwortbilder liegen im Ordner "assets". Ihre Namen folgen immer dem
+gleichen Aufbau:
+
+q01-a.jpg = Frage 1, Antwort A
+q01-b.jpg = Frage 1, Antwort B
+q01-c.jpg = Frage 1, Antwort C
+...
+q10-c.jpg = Frage 10, Antwort C
+q11-a.jpg bis q13-c.jpg = zusätzliche Fragen 11 bis 13
+
+Vorgehen
+1. Gewünschtes Produktionsfoto auswählen.
+2. Aus Datenschutzgründen Namen, Ausweise, Anzeigen und Gesichter prüfen.
+3. Foto möglichst quadratisch zuschneiden. Empfohlen: 640 x 640 Pixel.
+4. Als JPG speichern und exakt wie das zu ersetzende Bild benennen.
+5. Die vorhandene Datei im Ordner "assets" ersetzen.
+6. index.html öffnen und die betreffende Frage kontrollieren.
+
+Wichtig
+- Dateinamen und Endung müssen unverändert bleiben.
+- Gross-/Kleinschreibung beachten.
+- Der Text und die richtige Antwort sind in app.js festgelegt. Der reine
+  Bildaustausch verändert die Bewertung nicht.
+- Keine vertraulichen Produktionsdaten, Seriennummern, Personaldaten oder
+  sicherheitsrelevanten Details sichtbar lassen.
+- Für jede Antwort ein eindeutig unterscheidbares Bild verwenden.
+- Alle sichtbaren Personen tragen eine Vlieshaube, welche die Haare vollständig
+  bedeckt. Es dürfen keine losen Haare sichtbar sein.
+- Männer werden ohne Bart dargestellt. Ist ein Bart vorhanden, muss er mit
+  einem geeigneten Bartschutz vollständig bedeckt sein.
+
+Die Datei BILDLISTE.csv zeigt, welches Bild zu welcher Antwort gehört.
+
+Bei einer im Frageneditor neu angelegten Frage werden die benötigten
+Bilddateinamen direkt angezeigt. Fehlt ein Bild, zeigt der Test automatisch
+platzhalter.jpg an.

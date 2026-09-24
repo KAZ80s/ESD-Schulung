@@ -1,0 +1,40 @@
+Datei;Frage;Antwort;Kurzbeschreibung
+q01-a.jpg;1;A;Direkt in die EPA gehen
+q01-b.jpg;1;B;Persönliche ESD-Ausrüstung prüfen
+q01-c.jpg;1;C;Nur Schuhe prüfen
+q02-a.jpg;2;A;Nach FAIL weiter messen
+q02-b.jpg;2;B;Nach FAIL trotzdem arbeiten
+q02-c.jpg;2;C;Vorgesetzten informieren und nicht arbeiten
+q03-a.jpg;3;A;Vollständige persönliche ESD-Ausrüstung
+q03-b.jpg;3;B;Schuhe Mantel und Kugelschreiber
+q03-c.jpg;3;C;Schuhe Arbeitshose und T-Shirt
+q04-a.jpg;4;A;NOT ESD-SAFE nur 10 cm entfernt
+q04-b.jpg;4;B;Mindestens 30 cm Sicherheitsabstand
+q04-c.jpg;4;C;Kunststoff fälschlich als sicher ansehen
+q05-a.jpg;5;A;Rosa Beutel ohne Schirmwirkung
+q05-b.jpg;5;B;Normale Kunststoffverpackung
+q05-c.jpg;5;C;Silberner ESD-Abschirmbeutel
+q06-a.jpg;6;A;Aufladung verhindern und kontrolliert ableiten
+q06-b.jpg;6;B;Bauteil hart erden
+q06-c.jpg;6;C;Nur Produktionsanlage schützen
+q07-a.jpg;7;A;10 Volt
+q07-b.jpg;7;B;100 Volt
+q07-c.jpg;7;C;1000 Volt
+q08-a.jpg;8;A;Verbindung zum EBP prüfen
+q08-b.jpg;8;B;Netzspannung einer Maschine messen
+q08-c.jpg;8;C;Verpackungen täglich austauschen
+q09-a.jpg;9;A;Ionisator einschalten und Luftstrom prüfen
+q09-b.jpg;9;B;Nur Gehäusefarbe anschauen
+q09-c.jpg;9;C;Ionisator nur jährlich kontrollieren
+q10-a.jpg;10;A;Höhere Luftfeuchtigkeit
+q10-b.jpg;10;B;Sehr tiefe Luftfeuchtigkeit
+q10-c.jpg;10;C;Luftfeuchtigkeit ignorieren
+q11-a.jpg;11;A;ESDS ausserhalb der EPA auspacken
+q11-b.jpg;11;B;ESDS nur innerhalb der EPA auspacken
+q11-c.jpg;11;C;ESDS in einem normalen sauberen Raum auspacken
+q12-a.jpg;12;A;ESDS auf blanker Metallfläche ablegen
+q12-b.jpg;12;B;ESDS auf geeigneter ESD-Arbeitsfläche ablegen
+q12-c.jpg;12;C;ESDS auf normalem Karton ablegen
+q13-a.jpg;13;A;Funktionsnachweis täglich bei Arbeitsantritt ausfüllen
+q13-b.jpg;13;B;Funktionsnachweis nur bei FAIL ausfüllen
+q13-c.jpg;13;C;Funktionsnachweis am Ende der Woche nachtragen

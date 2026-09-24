@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ESD-Frageneditor</title>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <main class="editor-app">
+    <header>
+      <div><span class="eyebrow">ESD-Praxischeck</span><h1>Fragen verwalten</h1></div>
+      <a class="back" href="index.html">Zurück zum Test</a>
+    </header>
+    <section class="info">
+      <strong>So funktioniert es:</strong> Fragen ändern oder ergänzen, danach <em>Neue fragen.js herunterladen</em>. Die heruntergeladene Datei ersetzt anschliessend die bisherige <code>fragen.js</code> im Testordner. Mindestens 10 vollständige Fragen sind nötig.
+    </section>
+    <div class="toolbar">
+      <span id="count"></span>
+      <div><button id="add" class="secondary" type="button">+ Frage hinzufügen</button><button id="export" class="primary" type="button">Neue fragen.js herunterladen</button></div>
+    </div>
+    <div id="message" role="status"></div>
+    <section id="cards"></section>
+  </main>
+  <script src="fragen.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>
